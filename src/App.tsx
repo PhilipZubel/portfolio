@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './components/Home';
+import logo from './assets/logo.svg';
+import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Parallax pages={3}>
+        <ParallaxLayer 
+            speed={0.8}
+            style ={{
+              backgroundImage: `url(${logo})`,
+              backgroundSize: '80vh',
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'center',
+              backgroundColor: "#010926",
+            }}
+          >
+          <Home/>
+        </ParallaxLayer>
+        <ParallaxLayer offset={1} speed={0.5}>
+          <div>HELLO THERE</div>
+        </ParallaxLayer>
+      </Parallax>
+    </>
   );
 }
 
