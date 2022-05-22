@@ -5,8 +5,8 @@ const About = () => {
     return (
         <>
         <div id="about" className="section">
-            <span className="anchor-tag">&lt;about&gt;</span>
-            <span className="anchor-tag">&lt;/about&gt;</span>
+            <span className="anchor-tag disable-select">&lt;about&gt;</span>
+            <span className="anchor-tag disable-select">&lt;/about&gt;</span>
         </div>
         </>
     )
