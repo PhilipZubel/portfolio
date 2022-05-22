@@ -21,7 +21,7 @@ const App = () => {
               backgroundSize: '80vh',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center',
-              backgroundColor: "#010926",
+              // backgroundColor: "#010926",
             }}
           >
             <Home/>
@@ -29,36 +29,36 @@ const App = () => {
         <ParallaxLayer 
           offset={1} 
           speed={1}
-          style ={{
-            backgroundColor: "black",
-          }}
+          // style ={{
+          //   backgroundColor: "black",
+          // }}
           >
           <About />
         </ParallaxLayer>
         <ParallaxLayer 
           offset={2} 
           speed={1}
-          style ={{
-            backgroundColor: "#010926",
-          }}
+          // style ={{
+          //   backgroundColor: "#010926",
+          // }}
           >
           <Experience />
         </ParallaxLayer>
         <ParallaxLayer 
           offset={3} 
           speed={1}
-          style ={{
-            backgroundColor: "black",
-          }}
+          // style ={{
+          //   backgroundColor: "black",
+          // }}
           >
           <Projects/>
         </ParallaxLayer>
         <ParallaxLayer 
           offset={4} 
           speed={1}
-          style ={{
-            backgroundColor: "#010926",
-          }}
+          // style ={{
+          //   backgroundColor: "#010926",
+          // }}
           >
           <Contact/>
         </ParallaxLayer>
