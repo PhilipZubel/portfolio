@@ -1,12 +1,19 @@
 import React from 'react';
-import Home from './components/Home';
+
 import logo from './assets/logo.svg';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
+
+import Home from './components/home/Home';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
+import Contact from './components/contact/Contact';
+import Projects from './components/projects/Projects';
+
 
 const App = () => {
   return (
     <>
-      <Parallax pages={3}>
+      <Parallax pages={5}>
         <ParallaxLayer 
             speed={0.8}
             style ={{
@@ -17,10 +24,43 @@ const App = () => {
               backgroundColor: "#010926",
             }}
           >
-          <Home/>
+            <Home/>
         </ParallaxLayer>
-        <ParallaxLayer offset={1} speed={0.5}>
-          <div>HELLO THERE</div>
+        <ParallaxLayer 
+          offset={1} 
+          speed={1}
+          style ={{
+            backgroundColor: "black",
+          }}
+          >
+          <About />
+        </ParallaxLayer>
+        <ParallaxLayer 
+          offset={2} 
+          speed={1}
+          style ={{
+            backgroundColor: "#010926",
+          }}
+          >
+          <Experience />
+        </ParallaxLayer>
+        <ParallaxLayer 
+          offset={3} 
+          speed={1}
+          style ={{
+            backgroundColor: "black",
+          }}
+          >
+          <Projects/>
+        </ParallaxLayer>
+        <ParallaxLayer 
+          offset={4} 
+          speed={1}
+          style ={{
+            backgroundColor: "#010926",
+          }}
+          >
+          <Contact/>
         </ParallaxLayer>
       </Parallax>
     </>

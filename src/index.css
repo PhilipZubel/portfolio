@@ -6,6 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  background-color: black;
 }
 
 code {
@@ -20,13 +21,24 @@ h1, h2 {
 } 
 
 h1 {
-  letter-spacing: 0.35rem;
+  letter-spacing: 0.45rem;
 }
 
 h2 {
-  letter-spacing: 0.15rem;
+  letter-spacing: 0.25rem;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@500&display=swap');
+.anchor-tag {
+  font-family: 'M PLUS 1 Code', sans-serif;
+  font-size: x-large
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  letter-spacing: .1rem;
+}
 
 
 
