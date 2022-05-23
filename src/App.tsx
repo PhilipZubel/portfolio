@@ -14,21 +14,22 @@ const App = () => {
   return (
     <>
       <Parallax pages={5}>
-        <ParallaxLayer 
-            speed={0.8}
+        <ParallaxLayer
+            speed={0.4}
             style ={{
               backgroundImage: `url(${logo})`,
               backgroundSize: '80vh',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center',
-              // backgroundColor: "#010926",
             }}
-          >
+          />
+        <ParallaxLayer>
             <Home/>
         </ParallaxLayer>
         <ParallaxLayer 
           offset={1} 
-          speed={1}
+          speed={1.2}
+          // speed={1}
           // style ={{
           //   backgroundColor: "black",
           // }}
@@ -37,7 +38,8 @@ const App = () => {
         </ParallaxLayer>
         <ParallaxLayer 
           offset={2} 
-          speed={1}
+          speed={1.2}
+          // speed={1}
           // style ={{
           //   backgroundColor: "#010926",
           // }}
@@ -46,7 +48,8 @@ const App = () => {
         </ParallaxLayer>
         <ParallaxLayer 
           offset={3} 
-          speed={1}
+          speed={1.2}
+          // speed={1}
           // style ={{
           //   backgroundColor: "black",
           // }}
@@ -55,7 +58,7 @@ const App = () => {
         </ParallaxLayer>
         <ParallaxLayer 
           offset={4} 
-          speed={1}
+          // speed={1}
           // style ={{
           //   backgroundColor: "#010926",
           // }}
