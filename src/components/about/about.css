@@ -1,0 +1,86 @@
+#about .content{
+    display: flex;
+    flex-direction: row;
+}
+
+#about .about-tag {
+    color: #FF4742;
+}
+
+#about .content .picture {
+    min-width: 45%;
+    max-width: 400px;
+    margin-right: 5%;
+}
+
+#about .content .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#about .content .description {
+    font-family: 'M PLUS 1 Code', sans-serif;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+    line-height: 135%;
+}
+
+/* CSS */
+.button-24 {
+    background: #FF4742;
+    border: 1px solid #FF4742;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #FF4742;
+}
+
+.button-24:active {
+    opacity: .5;
+}
+
+@media (max-width: 900px) {
+    #about .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #about .content .picture{
+        margin-bottom: 1rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .button-24{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+

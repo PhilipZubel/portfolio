@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
-  background-color: black;
+  background-color: #010926;
 }
 
 code {
@@ -38,7 +38,24 @@ h2 {
   display: flex;
   flex-direction: column;
   letter-spacing: .1rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 90vh;
+  justify-content: space-around
 }
 
+.disable-select {
+  user-select: none; /* supported by Chrome and Opera */
+ -webkit-user-select: none; /* Safari */
+ -khtml-user-select: none; /* Konqueror HTML */
+ -moz-user-select: none; /* Firefox */
+ -ms-user-select: none; /* Internet Explorer/Edge */
+}
 
+@media (max-width: 1000px) {
+  .section {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
 
