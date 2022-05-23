@@ -23,7 +23,9 @@ const About = () => {
                         {about.description}
                     </p>
                     <div className="cv">
-                        <button className="button-24" role="button">{about.button}</button>
+                        <a href={about.cv} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}} >
+                            <button className="button-24" >{about.button}</button>
+                        </a>
 
                     </div>
                 </div>
