@@ -34,7 +34,7 @@ const timeline = [
         description : "Worked on the following projects:",
         bulletPoints : [ 
             "Developed a Django/React web application which allows the university to track the mapping of grades earned by students abroad",
-            "Performed a UX Testing Evaluation via inductive coding analysis on a university web application through interviews, focus groups and surveys",
+            "Performed a UX Testing Evaluation on a university web application called MyPath. Conducted interviews, focus groups and surveys which were then analysed via inductive coding",
         ]
     },
     {

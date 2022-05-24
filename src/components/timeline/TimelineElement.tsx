@@ -25,7 +25,7 @@ const TimelineElement = (prop : {description: any}) => {
             contentStyle={{ background: bgColor, color: '#fff' }}
             contentArrowStyle={{ borderRight: `7px solid  ${bgColor}` }}
             date={date}
-            iconStyle={{ background: 'white', color: '#fff' }}
+            iconStyle={{ background: 'white', color: '#fff', border: `none`}}
             icon={<Icon logo={prop.description.logo}/>}
         >
             <h3 className="vertical-timeline-element-title text-xl font-bold">{prop.description.company}</h3>
