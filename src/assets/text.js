@@ -11,9 +11,33 @@ const about = {
     cv: cv,
 }
 
+const timeline = [
+    {
+        startDate : "June 2022",
+        endDate : "Present",
+        company : "Barclays",
+        position : "Developer Analyst",
+        description : "fjkdsafhadfkj dsahj jksdf  jdasjk fhaj dsafh kdaf",
+    },
+    {
+        startDate : "September 2021",
+        endDate : "Present",
+        company : "Glasgow University Software Services",
+        position : "Software Engineer",
+        description : "fjkdsafhadfkj dsahj jksdf  jdasjk fhaj dsafh kdaf",
+    },
+    {
+        startDate : "September 2021",
+        endDate : "Present",
+        company : "University of Glasgow",
+        position : "UG Demonstrator",
+        description : "fjkdsafhadfkj dsahj jksdf  jdasjk fhaj dsafh kdaf",
+    },
+]
+
 const experience = {};
 
 const projects = {};
 
 
-export {about, experience, projects};
+export {about, timeline, experience, projects};

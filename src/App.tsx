@@ -8,12 +8,13 @@ import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/skills';
+import Timeline from './components/timeline/Timeline';
 
 
 const App = () => {
   return (
     <>
-      <Parallax pages={5}>
+      <Parallax pages={6}>
         <ParallaxLayer
             speed={0.4}
             style ={{
@@ -29,35 +30,29 @@ const App = () => {
         <ParallaxLayer 
           offset={1} 
           speed={1.2}
-          // speed={1}
-          // style ={{
-          //   backgroundColor: "black",
-          // }}
           >
           <About />
         </ParallaxLayer>
         <ParallaxLayer 
           offset={2} 
           speed={1.2}
-          // speed={1}
-          // style ={{
-          //   backgroundColor: "black",
-          // }}
           >
-          <Projects/>
+          <Timeline />
         </ParallaxLayer>
         <ParallaxLayer 
           offset={3} 
           speed={1.2}
           >
-          <Skills />
+          <Projects/>
         </ParallaxLayer>
         <ParallaxLayer 
           offset={4} 
-          // speed={1}
-          // style ={{
-          //   backgroundColor: "#010926",
-          // }}
+          speed={1.2}
+          >
+          <Skills />
+        </ParallaxLayer>
+        <ParallaxLayer 
+          offset={5} 
           >
           <Contact/>
         </ParallaxLayer>

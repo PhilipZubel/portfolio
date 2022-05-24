@@ -19,7 +19,7 @@ const About = () => {
                     <img src={picture} alt="portrait" className="picture"/>
                 </Zoom>
                 <div className="info">
-                    <p className="description  text-xl">
+                    <p className="description text-xl">
                         {about.description}
                     </p>
                     <div className="cv">
