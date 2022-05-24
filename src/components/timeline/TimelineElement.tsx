@@ -4,19 +4,20 @@ import { VerticalTimelineElement }  from 'react-vertical-timeline-component';
 
 const TimelineElement = (prop : {description: any}) => {
 
-    let date: string = prop.description.startDate + " - " + prop.description.endDate
+    let date: string = `${prop.description.startDate} - ${prop.description.endDate}`;
+    let bgColor: string = prop.description.color;
 
     return (
         <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: bgColor, color: '#fff' }}
+            contentArrowStyle={{ borderRight: `7px solid  ${bgColor}` }}
             date={date}
             iconStyle={{ background: 'white', color: '#fff' }}
             // icon={barclays}
         >
             <h3 className="vertical-timeline-element-title text-xl font-bold">{prop.description.company}</h3>
-            <h4 className="vertical-timeline-element-subtitle">{prop.description.position}</h4>
+            <h4 className="vertical-timeline-element-subtitle font-bold font-italic">{prop.description.position}</h4>
             <p>
             {prop.description.description}
             </p>

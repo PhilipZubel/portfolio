@@ -14,10 +14,11 @@ const about = {
 const timeline = [
     {
         startDate : "June 2022",
-        endDate : "Present",
+        endDate : "August 2022",
         company : "Barclays",
         position : "Developer Analyst",
         description : "fjkdsafhadfkj dsahj jksdf  jdasjk fhaj dsafh kdaf",
+        color : "#00aeef",
     },
     {
         startDate : "September 2021",
@@ -25,6 +26,7 @@ const timeline = [
         company : "Glasgow University Software Services",
         position : "Software Engineer",
         description : "fjkdsafhadfkj dsahj jksdf  jdasjk fhaj dsafh kdaf",
+        color : "#00aeef",
     },
     {
         startDate : "September 2021",
@@ -32,6 +34,7 @@ const timeline = [
         company : "University of Glasgow",
         position : "UG Demonstrator",
         description : "fjkdsafhadfkj dsahj jksdf  jdasjk fhaj dsafh kdaf",
+        color : "#00aeef",
     },
 ]
 
