@@ -32,9 +32,9 @@ const Home = () => {
         </div> */}
         <div id="home">
             <div className="title">
-                <h1>Philip Zubel</h1>
+                <h1 className="text-3xl tracking-wider">Philip Zubel</h1>
                 <TypeAnimation
-                    className="type"
+                    className="type text-2xl tracking-widest"
                     cursor={false}
                     sequence={[
                         "Software Engineer", 5000, 

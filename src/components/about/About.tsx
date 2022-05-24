@@ -12,26 +12,26 @@ const About = () => {
     
     return (
         <>
-        <div id="about" className="section">
-            <span className="anchor-tag disable-select about-tag">&lt;about&gt;</span>
+        <div id="about" className="section tracking-wider">
+            <span className="anchor-tag disable-select text-3xl text-rose-600">&lt;about&gt;</span>
             <div className="content">
                 <Zoom left>
                     <img src={picture} alt="portrait" className="picture"/>
                 </Zoom>
                 <div className="info">
-                    <p className="description">
+                    <p className="description  text-xl">
                         {about.description}
                     </p>
                     <div className="cv">
                         <a href={about.cv} target="_blank" rel="noopener noreferrer" style={{textDecoration: 'none'}} >
-                            <button className="button-24" >{about.button}</button>
+                            <button className="button-24 bg-rose-600" >{about.button}</button>
                         </a>
 
                     </div>
                 </div>
             </div>
             
-            <span className="anchor-tag disable-select about-tag">&lt;/about&gt;</span>
+            <span className="anchor-tag disable-select text-3xl text-rose-600">&lt;/about&gt;</span>
         </div>
         </>
     )

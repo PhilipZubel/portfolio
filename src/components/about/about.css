@@ -3,10 +3,6 @@
     flex-direction: row;
 }
 
-#about .about-tag {
-    color: #FF4742;
-}
-
 #about .content .picture {
     min-width: 45%;
     max-width: 400px;
@@ -17,19 +13,20 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    font-size: 1.2rem;
 }
 
 #about .content .description {
     font-family: 'M PLUS 1 Code', sans-serif;
-    letter-spacing: 0.1rem;
+    /* letter-spacing: 0.1rem; */
     text-align: justify;
     line-height: 135%;
 }
 
 /* CSS */
 .button-24 {
-    background: #FF4742;
-    border: 1px solid #FF4742;
+    /* background: rgb(225 29 72); */
+    border: 1px solid rgb(225 29 72);
     border-radius: 6px;
     box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
     box-sizing: border-box;
@@ -56,7 +53,7 @@
 .button-24:active {
     background-color: initial;
     background-position: 0 0;
-    color: #FF4742;
+    color: rgb(225 29 72);
 }
 
 .button-24:active {
@@ -81,6 +78,7 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 15px;
     }
 }
 

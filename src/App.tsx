@@ -5,9 +5,9 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 
 import Home from './components/home/Home';
 import About from './components/about/About';
-import Experience from './components/experience/Experience';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
+import Skills from './components/skills/skills';
 
 
 const App = () => {
@@ -37,16 +37,6 @@ const App = () => {
           <About />
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={2} 
-          speed={1.2}
-          // speed={1}
-          // style ={{
-          //   backgroundColor: "#010926",
-          // }}
-          >
-          <Experience />
-        </ParallaxLayer>
-        <ParallaxLayer 
           offset={3} 
           speed={1.2}
           // speed={1}
@@ -55,6 +45,16 @@ const App = () => {
           // }}
           >
           <Projects/>
+        </ParallaxLayer>
+        <ParallaxLayer 
+          offset={2} 
+          speed={1.2}
+          // speed={1}
+          // style ={{
+          //   backgroundColor: "#010926",
+          // }}
+          >
+          <Skills />
         </ParallaxLayer>
         <ParallaxLayer 
           offset={4} 
