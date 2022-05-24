@@ -37,7 +37,7 @@ const App = () => {
           <About />
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={3} 
+          offset={2} 
           speed={1.2}
           // speed={1}
           // style ={{
@@ -47,12 +47,8 @@ const App = () => {
           <Projects/>
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={2} 
+          offset={3} 
           speed={1.2}
-          // speed={1}
-          // style ={{
-          //   backgroundColor: "#010926",
-          // }}
           >
           <Skills />
         </ParallaxLayer>
