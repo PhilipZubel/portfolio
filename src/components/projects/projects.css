@@ -1,0 +1,18 @@
+img {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 97%);
+}
+
+/* .card {
+    transform: scale(0.98);
+    transition: all 150ms ease-in-out; 
+}
+
+.card:hover{
+    transform: scale(1);
+    
+} */
+
+.card .description{
+    line-height: 98%;
+
+}

@@ -13,12 +13,14 @@ const Timeline = () => {
         <>
         <div className="section" id="timeline">
           <span className="anchor-tag disable-select text-3xl text-violet-500 tracking-wider">&lt;timeline&gt;</span>
-          <div className="place-content-center">
-            <h3 className="text-3xl tracking-wider text-center my-6">Where I worked?</h3>
+          <div className="py-10">
+            <div className="place-content-center">
+              <h3 className="text-3xl tracking-wider text-center my-6">Where I worked...</h3>
+            </div>
+            <VerticalTimeline>
+              {timeline.map( (el) => <TimelineElement description={el}/>)}
+            </VerticalTimeline>
           </div>
-          <VerticalTimeline>
-            {timeline.map( (el) => <TimelineElement description={el}/>)}
-          </VerticalTimeline>
           <span className="anchor-tag disable-select text-3xl text-violet-500 tracking-wider mt-6">&lt;/timeline&gt;</span>
         </div>
         </>

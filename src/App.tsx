@@ -36,11 +36,12 @@ const App = () => {
         <ParallaxLayer 
           offset={2} 
           speed={1.2}
+          factor={1.5}
           >
           <Timeline />
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={3} 
+          offset={3.5} 
           speed={1.2}
           >
           <Projects/>

@@ -1,32 +1,31 @@
 import pic from "./../../assets/pictures/rentalcalculator.png"
-import {AiFillGithub, AiOutlineDoubleRight} from 'react-icons/ai';
+import {AiFillGithub, AiOutlineEye} from 'react-icons/ai';
+import './projects.css'
 
 const Card = () => {
     return (
-        <div className="border">
-            <div className="grid grid-cols-2 gap-4">
-                <img className="rounded-lg p-1 transition-opacity opacity-80 hover:opacity-90" src={pic} alt="" />
-                <div className="">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-white">Rental Income Calculator</h5>
-                    <p className="mb-3 font-normal ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-                    
+        <div className="card block bg-teal-900 max-w-xl drop-shadow-xl rounded-xl my-2">
+            <div className="container relative">
+                <img 
+                    className="rounded-xl border-8 border-teal-900"
+                    src={pic} 
+                    alt="picture"/>
+                <div className="details px-5">
+                    <h3 className="font-bold text-lg pb-2">Rental Income Calculator</h3>
+                    <p className="description text-sm pb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae velit officiis quasi ex voluptate eaque deserunt error accusamus placeat voluptatum fugiat, doloremque necessitatibus at eveniet dolore reiciendis totam. Maxime, nostrum?</p>
                 </div>
-                <div>
-                <a href="#" className="inline-flex items-center py-2 px-3 mb-4 mx-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    <p className="pr-1">View Project</p>
-                    <AiOutlineDoubleRight size={20}/>
+                <div className="ml-2">
+                <a href="#" className="inline-flex items-center py-2 px-3 mb-4 mx-2 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <p className="pr-2">View Project</p>
+                    <AiOutlineEye size={20}/>
                 </a>
 
-                <a href="#" className="inline-flex items-center py-2 px-3 mx-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                    <p className="pr-1">GitHub</p>
+                <a href="#" className="inline-flex items-center py-2 px-3 mb-4 mx-2 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                    <p className="pr-2">GitHub</p>
                     <AiFillGithub size={20}/>
                 </a>
                 </div>
             </div>
-            
-            
-            
-            
         </div>
     )
 }
