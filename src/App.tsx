@@ -47,7 +47,7 @@ const App = () => {
           <Projects/>
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={4} 
+          offset={4.5} 
           speed={1.2}
           >
           <Skills />

@@ -1,17 +1,21 @@
-// const about: { [key: string]: string } = {
-//     "description" : 
-//     "button" : "View my Resume",
-// }
+// about
 import cv from './CV.pdf'
+
+// timelline
 import barclays from './timeline/barclays.svg'
 import glasgow from './timeline/glasgow.png'
 
+// projects
+import sorting from './projects/sorting.png'
+import rental from './projects/rentalcalculator.png'
 
 const about = {
-    description: "Hi, I'm Philip! 😎 I'm currently working as a software engineer at Glasgow University Software Services. I am also a final year Computing Science student at the University of Glasgow. 💻 I also love to code! ❤️ And I am keen on testing the limits of what can be achieved with a bit of imagination.",
+    description: "Hi, I'm Philip! 😎 I'm currently working as a software engineer at Glasgow University Software Services. I am also a final year Computing Science student at the University of Glasgow. 💻 I also love to code! ❤️ And I am keen on testing the limits of what can be achieved with a bit of imagination. 💭",
     button : "View my Resume",
     cv: cv,
 }
+
+
 
 const timeline = [
     {
@@ -52,9 +56,25 @@ const timeline = [
     },
 ]
 
-const experience = {};
-
-const projects = {};
 
 
-export {about, timeline, experience, projects};
+const projects = [
+        {
+            title : "Sorting Visualizer",
+            description: "This React app shows a visualization of various sorting algorithms such as bubble sort. insertion sort, selection sort, quick sort and merge sort.",
+            github: "https://github.com/PhilipZubel/SortingVisualiser",
+            view: "https://philipzubel.github.io/SortingVisualiser/",
+            picture: sorting,
+        },
+        {
+            title : "Rental Income Calculator",
+            description: "This Django web app enables a user to keep track of their revenues and expeses when it comes to renting rental units.",
+            github: "https://github.com/PhilipZubel/SortingVisualiser",
+            // view: "https://philipzubel.github.io/SortingVisualiser/",
+            picture: rental,
+        },
+
+    ];
+
+
+export {about, timeline, projects};

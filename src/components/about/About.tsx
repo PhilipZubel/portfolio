@@ -13,7 +13,7 @@ const About = () => {
     return (
         <>
         <div id="about" className="section tracking-wider">
-            <span className="anchor-tag disable-select text-3xl text-rose-600">&lt;about&gt;</span>
+            <span className="anchor-tag disable-select text-3xl text-rose-600 mb-10">&lt;about&gt;</span>
             <div className="content">
                 <Zoom left>
                     <img src={picture} alt="portrait" className="picture"/>
@@ -31,7 +31,7 @@ const About = () => {
                 </div>
             </div>
             
-            <span className="anchor-tag disable-select text-3xl text-rose-600">&lt;/about&gt;</span>
+            <span className="anchor-tag disable-select text-3xl text-rose-600 mt-10">&lt;/about&gt;</span>
         </div>
         </>
     )
