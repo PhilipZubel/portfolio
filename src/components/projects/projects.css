@@ -1,6 +1,7 @@
 .project-pic {
     clip-path: polygon(0 0, 100% 0, 100% 97%, 0 90%);
     opacity: 0.95;
+    aspect-ratio: 16 / 9;
 }
 
 

@@ -8,6 +8,8 @@ import glasgow from './timeline/glasgow.png'
 // projects
 import sorting from './projects/sorting.png'
 import rental from './projects/rentalcalculator.png'
+import repos from './projects/repos.png'
+import CSPR from './projects/CSPR.jpg'
 
 const about = {
     description: "Hi, I'm Philip! 😎 I'm currently working as a software engineer at Glasgow University Software Services. I am also a final year Computing Science student at the University of Glasgow. 💻 I also love to code! ❤️ And I am keen on testing the limits of what can be achieved with a bit of imagination. 💭",
@@ -60,17 +62,28 @@ const timeline = [
 
 const projects = [
         {
+            title : "CSPR Tracker App",
+            description: "This mobile application developed with React Native allows to track the activity of nodes deployed on mainnet of a Casper Network.",
+            github: "https://github.com/PhilipZubel/CSPR-tracker",
+            picture: CSPR,
+        },
+        {
             title : "Sorting Visualizer",
-            description: "This React app shows a visualization of various sorting algorithms such as bubble sort. insertion sort, selection sort, quick sort and merge sort.",
+            description: "This React app shows a visualization of various sorting algorithms such as bubble sort, quick sort, merge sort and more.",
             github: "https://github.com/PhilipZubel/SortingVisualiser",
             view: "https://philipzubel.github.io/SortingVisualiser/",
             picture: sorting,
         },
         {
+            title : "Github Repos",
+            description: "This Django web app visualizes statistics regarding a user's github repository. The application integrates with the GitHub API.",
+            github: "https://github.com/PhilipZubel/github-repos-app",
+            picture: repos,
+        },
+        {
             title : "Rental Income Calculator",
             description: "This Django web app enables a user to keep track of their revenues and expeses when it comes to renting rental units.",
             github: "https://github.com/PhilipZubel/SortingVisualiser",
-            // view: "https://philipzubel.github.io/SortingVisualiser/",
             picture: rental,
         },
 
