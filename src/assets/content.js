@@ -11,13 +11,27 @@ import rental from './projects/rentalcalculator.png'
 import repos from './projects/repos.png'
 import CSPR from './projects/CSPR.jpg'
 
+// skills
+import html from './technologies/html.svg'
+import css from './technologies/css.svg'
+import js from './technologies/js.svg'
+import ts from './technologies/typescript.svg'
+import react from './technologies/react.svg'
+import django from "./technologies/django.svg"
+import python from "./technologies/python.svg"
+import java from "./technologies/java.svg"
+import mui from './technologies/material-ui.svg'
+import tailwind from './technologies/tailwind-css.svg'
+import git from "./technologies/git.svg"
+import linux from './technologies/linux.png'
+import mysql from "./technologies/mysql.svg"
+import flutter from './technologies/flutter.svg'
+
 const about = {
     description: "Hi, I'm Philip! 😎 I'm currently working as a software engineer at Glasgow University Software Services. I am also a final year Computing Science student at the University of Glasgow. 💻 I also love to code! ❤️ And I am keen on testing the limits of what can be achieved with a bit of imagination. 💭",
     button : "View my Resume",
     cv: cv,
 }
-
-
 
 const timeline = [
     {
@@ -90,4 +104,63 @@ const projects = [
     ];
 
 
-export {about, timeline, projects};
+const skills = [
+    {
+        name: "HTML",
+        picture: html,
+    },
+    {
+        name: "CSS",
+        picture: css,
+    },
+    {
+        name: "JavaScript",
+        picture: js,
+    },
+    {
+        name: "TypeScript",
+        picture: ts,
+    },
+    {
+        name: "React",
+        picture: react,
+    },
+    {
+        name: "Django",
+        picture: django,
+    },
+    {
+        name: "Python",
+        picture: python,
+    },
+    {
+        name: "Java",
+        picture: java,
+    },
+    {
+        name: "Material UI",
+        picture: mui,
+    },
+    {
+        name: "Tailwind CSS",
+        picture: tailwind,
+    },
+    {
+        name: "Git",
+        picture: git,
+    },
+    {
+        name: "Linux",
+        picture: linux,
+    },
+    {
+        name: "MySQL",
+        picture: mysql,
+    },
+    {
+        name: "Flutter",
+        picture: flutter,
+    },
+]
+
+export {about, timeline, projects, skills};

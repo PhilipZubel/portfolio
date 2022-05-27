@@ -2,7 +2,7 @@ import React from "react";
 import './about.css'
 import Zoom from 'react-reveal/Zoom';
 
-import {about} from "./../../assets/text"
+import {about} from "../../assets/content"
 
 const picture = require('../../assets/me.png');
 

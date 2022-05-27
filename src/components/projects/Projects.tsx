@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-import { projects } from "../../assets/text";
+import { projects } from "../../assets/content";
 
 const Projects = () => {
     return (

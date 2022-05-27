@@ -7,7 +7,7 @@ import Home from './components/home/Home';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Projects from './components/projects/Projects';
-import Skills from './components/skills/skills';
+import Skills from './components/skills/Skills';
 import Timeline from './components/timeline/Timeline';
 
 

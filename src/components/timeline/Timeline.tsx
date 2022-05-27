@@ -5,7 +5,7 @@ import './timeline.css'
 import 'react-vertical-timeline-component/style.min.css';
 import TimelineElement from "./TimelineElement";
 
-import { timeline } from "../../assets/text";
+import { timeline } from "../../assets/content";
 
 
 const Timeline = () => {
