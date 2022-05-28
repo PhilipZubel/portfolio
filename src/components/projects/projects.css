@@ -1,0 +1,20 @@
+.project-pic {
+    clip-path: polygon(0 0, 100% 0, 100% 97%, 0 90%);
+    opacity: 0.95;
+    aspect-ratio: 16 / 9;
+}
+
+
+/* .card {
+    transform: scale(0.98);
+    transition: all 150ms ease-in-out; 
+}
+
+.card:hover{
+    transform: scale(1);
+    
+} */
+
+/* .card .description{
+    line-height: 98%;
+} */
