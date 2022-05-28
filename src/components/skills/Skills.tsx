@@ -6,19 +6,22 @@ const Skills = () => {
     return (
         <>
         <div className="section" id="skills">
-          <span className="disable-select anchor-tag text-3xl tracking-wider">&lt;skills&gt;</span>
-          <div className="flex flex-wrap ">
+          <span className="disable-select anchor-tag text-3xl tracking-wider pb-6">&lt;skills&gt;</span>
+          <div className="grid grid-cols-3 md:grid-cols-5 gap-4 place-content-evenly">
             {skills.map(skill => {
               return (
                 <div className="p-6">
-                  <img src={skill.picture} alt={skill.name} style={{width:'96px', height:'96px'}}/>
-                  <h4 className="text-center font-bold pt-2">{skill.name}</h4>
+                  <img src={skill.picture} alt={skill.name} style={{width:'96px', height:'96px', display: "block", 
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                      }}/>
+                  <h4 className="text-center font-bold text-amber-50 pt-2">{skill.name}</h4>
                 </div>
               )
             })}
 
           </div>
-          <span className="disable-select anchor-tag text-3xl tracking-wider">&lt;/skills&gt;</span>
+          <span className="disable-select anchor-tag text-3xl tracking-wider pt-6">&lt;/skills&gt;</span>
         </div>
         </>
     )
