@@ -2,9 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 
-const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
-const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
-const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
+const SERVICE_ID="service_fpo9d1r";
+const TEMPLATE_ID="template_nqfeor4";
+const PUBLIC_KEY="p59NvE2vsTRP4_esU";
 
 export const ContactUs = () => {
     const form = useRef();
