@@ -42,7 +42,7 @@ const timeline = [
         position : "Developer Analyst",
         color : "#00aeef",
         logo: barclays,
-        description : "Comming soon...",
+        description : "Coming soon...",
         bulletPoints : []
     },
     {

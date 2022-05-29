@@ -17,7 +17,7 @@ import Timeline from './components/timeline/Timeline';
 const App = () => {
   return (
     <>
-      <Parallax pages={6.7}>
+      <Parallax pages={7}>
         <ParallaxLayer
             speed={0.4}
             style ={{
@@ -39,26 +39,26 @@ const App = () => {
         <ParallaxLayer 
           offset={2.1} 
           speed={1.2}
-          factor={1.3}
+          factor={1.4}
           >
           <Timeline />
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={3.4} 
+          offset={3.5} 
           speed={1.2}
           factor={1.3}
           >
           <Projects/>
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={4.7} 
+          offset={4.8} 
           speed={1.2}
           >
           <Skills />
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={5.6} 
-          speed={1}
+          offset={5.8} 
+          speed={1.2}
           > 
           <ToastContainer/>
           <Contact/>
