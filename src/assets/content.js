@@ -91,7 +91,7 @@ const projects = [
         },
         {
             title : "Github Repos",
-            description: "This Django web app visualizes statistics regarding a user's github repository. The application integrates with the GitHub API.",
+            description: "This Django web app visualizes statistics regarding a user's github repository. The app integrates with GitHub's API.",
             github: "https://github.com/PhilipZubel/github-repos-app",
             picture: repos,
         },
@@ -167,5 +167,6 @@ const skills = [
         picture: flutter,
     },
 ]
+
 
 export {about, timeline, projects, skills};
