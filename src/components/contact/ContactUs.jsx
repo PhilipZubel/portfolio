@@ -32,16 +32,17 @@ export const ContactUs = () => {
         });
 
     const sendEmail = (e) => {
-        console.log(SERVICE_ID)
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
             .then((result) => {
                 // console.log(result.text);
                 notifySuccess();
+                form.current.reset();
             }, (error) => {
                 // console.log(error.text);
                 notifyFail();
             });
+        
     };
 
     return (
