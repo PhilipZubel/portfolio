@@ -168,4 +168,5 @@ const skills = [
     },
 ]
 
+
 export {about, timeline, projects, skills};

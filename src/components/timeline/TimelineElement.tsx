@@ -32,9 +32,9 @@ const TimelineElement = (prop : {description: any}) => {
             <h4 className="vertical-timeline-element-subtitle font-bold font-italic">{prop.description.position}</h4>
             <div className='text-sm pt-2'>{prop.description.description}</div>
             <ul className="list-disc">
-            {prop.description.bulletPoints.map((el:String) => {
+            {prop.description.bulletPoints.map((el:String, idx:number) => {
                 return (
-                    <li className='ml-6 text-sm'>{el}</li>
+                    <li key={idx} className='ml-6 text-sm'>{el}</li>
                 )
             })}
             </ul>

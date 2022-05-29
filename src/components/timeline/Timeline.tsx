@@ -18,7 +18,7 @@ const Timeline = () => {
               <h3 className="text-3xl tracking-wider text-center my-6">Where I worked...</h3>
             </div>
             <VerticalTimeline>
-              {timeline.map( (el) => <TimelineElement description={el}/>)}
+              {timeline.map( (el, idx) => <TimelineElement description={el} key={idx}/>)}
             </VerticalTimeline>
           </div>
           <span className="anchor-tag disable-select text-3xl text-violet-500 tracking-wider mt-6">&lt;/timeline&gt;</span>

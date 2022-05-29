@@ -1,0 +1,8 @@
+/* .contact-icon:hover {
+    
+} */
+
+.contact-card:hover {
+    color: #eab308;
+    transition: 0.3s ease;
+}
