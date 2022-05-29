@@ -2,9 +2,9 @@ import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast } from 'react-toastify';
 
-const SERVICE_ID = "service_fpo9d1r";
-const TEMPLATE_ID = "template_nqfeor4";
-const PUBLIC_KEY = "p59NvE2vsTRP4_esU"
+const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
 
 export const ContactUs = () => {
     const form = useRef();
@@ -32,6 +32,7 @@ export const ContactUs = () => {
         });
 
     const sendEmail = (e) => {
+        console.log(SERVICE_ID)
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
             .then((result) => {
@@ -72,7 +73,7 @@ export const ContactUs = () => {
     <div className="flex flex-wrap mb-4">
         <div className="w-full">
         <label className="block uppercase tracking-wide text-yellow-600 text-xs font-bold mb-2" htmlFor="email">
-            E-mail
+            Email
         </label>
         <input 
             className="appearance-none block w-full bg-gray-200 text-gray-800 border border-yellow-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" 
