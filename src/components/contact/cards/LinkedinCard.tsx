@@ -4,7 +4,7 @@ const LinkedinCard = () => {
 
     const linkedinLink = "https://www.linkedin.com/in/philipzubel/";
     return (
-        <div className='flex flex-col mb-6'>
+        <div className='flex flex-col mb-8'>
             <a className='contact-card' href={linkedinLink} target="_blank" rel="noopener noreferrer">
                 <FaLinkedin 
                     size="5em" 
