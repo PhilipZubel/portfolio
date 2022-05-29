@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "//portfolio/static/css/main.13804054.css",
+    "main.js": "//portfolio/static/js/main.a264a014.js",
+    "static/js/787.1ed0c42c.chunk.js": "//portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/me.png": "//portfolio/static/media/me.b98065fa59906ce64d3f.png",
+    "static/media/sorting.png": "//portfolio/static/media/sorting.f888a190094d0637de24.png",
+    "static/media/repos.png": "//portfolio/static/media/repos.6336a8389f5fc8228be8.png",
+    "static/media/rentalcalculator.png": "//portfolio/static/media/rentalcalculator.07c347a0ce3a94586de6.png",
+    "static/media/CV.pdf": "//portfolio/static/media/CV.fc7b426d070bf2a4c0f6.pdf",
+    "static/media/CSPR.jpg": "//portfolio/static/media/CSPR.be95d6092f767165df2c.jpg",
+    "static/media/glasgow.png": "//portfolio/static/media/glasgow.1a302e0907044ba48298.png",
+    "static/media/mysql.svg": "//portfolio/static/media/mysql.de8aab5285d3a9df77cb81dbe9ea418a.svg",
+    "static/media/barclays.svg": "//portfolio/static/media/barclays.f473002f0e7b01f3bd56e54acf65ad69.svg",
+    "static/media/django.svg": "//portfolio/static/media/django.e5f2afecfa58eefa7fcbda9dedafe86e.svg",
+    "static/media/logo.svg": "//portfolio/static/media/logo.45946c9e77bf784b42d249b07264d6b4.svg",
+    "static/media/java.svg": "//portfolio/static/media/java.4d8f13d77f54fca24e4fffbda8b20ced.svg",
+    "static/media/c.svg": "//portfolio/static/media/c.fc679380c3956cab935c46cee3035963.svg",
+    "static/media/react.svg": "//portfolio/static/media/react.2d80508d388f8a99ffd2129955e481b2.svg",
+    "static/media/python.svg": "//portfolio/static/media/python.58d5a0a7b305a106917669f9abcc4f3d.svg",
+    "static/media/js.svg": "//portfolio/static/media/js.19600440c8c62e3de974e2bba991871f.svg",
+    "index.html": "//portfolio/index.html",
+    "static/media/git.svg": "//portfolio/static/media/git.aeeb13ab71f0fa41e8bb99688f96cfdd.svg",
+    "static/media/tailwind-css.svg": "//portfolio/static/media/tailwind-css.d84a6f369e7170891c4a19587ccf78e1.svg",
+    "static/media/material-ui.svg": "//portfolio/static/media/material-ui.8e8d37c6bebf84512bcbbc9c0c4d8a71.svg",
+    "static/media/typescript.svg": "//portfolio/static/media/typescript.ced98752566ac4b3a366e8e41677cd67.svg",
+    "static/media/css.svg": "//portfolio/static/media/css.64fa1d1c4801d931c3717be71f6c020e.svg",
+    "static/media/html.svg": "//portfolio/static/media/html.8ae3d4adcd70a1028a6377697d9f33b0.svg",
+    "static/media/flutter.svg": "//portfolio/static/media/flutter.53dd232b1ee8521cd1054b5c609dc726.svg",
+    "main.13804054.css.map": "//portfolio/static/css/main.13804054.css.map",
+    "main.a264a014.js.map": "//portfolio/static/js/main.a264a014.js.map",
+    "787.1ed0c42c.chunk.js.map": "//portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13804054.css",
+    "static/js/main.a264a014.js"
+  ]
+}
