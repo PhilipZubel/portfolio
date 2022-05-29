@@ -12,11 +12,11 @@ const About = () => {
     return (
         <>
         <div id="about" className="section tracking-wider">
-            <span className="anchor-tag disable-select text-3xl text-rose-600 mb-10">&lt;about&gt;</span>
+            <span className="anchor-tag disable-select text-xl sm:text-3xl text-rose-600 mb-10">&lt;about&gt;</span>
             <div className="content">
                     <img src={picture} alt="portrait" className="picture"/>
                 <div className="info">
-                    <p className="description text-xl">
+                    <p className="description text-sm py-4 sm:py-0 sm:text-xl">
                         {about.description}
                     </p>
                     <div className="cv">
@@ -28,7 +28,7 @@ const About = () => {
                 </div>
             </div>
             
-            <span className="anchor-tag disable-select text-3xl text-rose-600 mt-10">&lt;/about&gt;</span>
+            <span className="anchor-tag disable-select text-xl sm:text-3xl text-rose-600 mt-10">&lt;/about&gt;</span>
         </div>
         </>
     )

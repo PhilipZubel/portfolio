@@ -5,6 +5,16 @@
 }
 
 
+
+@media (max-width: 500px){
+    .project-pic {
+        clip-path: polygon(0 0, 100% 0, 100% 95%, 0 88%);
+        opacity: 0.95;
+        aspect-ratio: 16 / 9;
+    }
+}
+
+
 /* .card {
     transform: scale(0.98);
     transition: all 150ms ease-in-out; 

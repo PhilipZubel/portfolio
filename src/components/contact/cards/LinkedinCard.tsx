@@ -10,7 +10,7 @@ const LinkedinCard = () => {
                     size="5em" 
                     className="mb-2 lg:mb-4" 
                     style={{display:"block", marginLeft:"auto", marginRight:"auto"}}/>
-                <div className='text-xl'>LinkedIn</div>
+                <div className='text-lg sm:text-xl'>LinkedIn</div>
             </a>
         </div>
     )

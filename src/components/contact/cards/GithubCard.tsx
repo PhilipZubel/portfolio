@@ -11,7 +11,7 @@ const GithubCard = () => {
                     size="5em" 
                     className=" mb-2 lg:mb-4" 
                     style={{display:"block", marginLeft:"auto", marginRight:"auto"}}/>
-                <div className='text-xl'>GitHub</div>
+                <div className='text-lg sm:text-xl'>GitHub</div>
             </a>
         </div>
     )

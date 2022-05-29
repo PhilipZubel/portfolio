@@ -28,8 +28,8 @@ const TimelineElement = (prop : {description: any}) => {
             iconStyle={{ background: 'white', color: '#fff', border: `none`}}
             icon={<Icon logo={prop.description.logo}/>}
         >
-            <h3 className="vertical-timeline-element-title text-xl font-bold">{prop.description.company}</h3>
-            <h4 className="vertical-timeline-element-subtitle font-bold font-italic">{prop.description.position}</h4>
+            <h3 className="vertical-timeline-element-title text-lg sm:text-xl font-bold">{prop.description.company}</h3>
+            <h4 className="vertical-timeline-element-subtitle text-md sm:text-lg sm:font-bold font-italic">{prop.description.position}</h4>
             <div className='text-sm pt-2'>{prop.description.description}</div>
             <ul className="list-disc">
             {prop.description.bulletPoints.map((el:String, idx:number) => {

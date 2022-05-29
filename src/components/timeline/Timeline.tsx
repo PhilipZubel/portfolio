@@ -12,16 +12,16 @@ const Timeline = () => {
     return (
         <>
         <div className="section" id="timeline">
-          <span className="anchor-tag disable-select text-3xl text-violet-500 tracking-wider">&lt;timeline&gt;</span>
-          <div className="py-10">
+          <span className="anchor-tag disable-select text-xl sm:text-3xl text-violet-500 tracking-wider">&lt;timeline&gt;</span>
+          <div className="py-2 sm:py-10">
             <div className="place-content-center">
-              <h3 className="text-3xl tracking-wider text-center my-6">Where I worked...</h3>
+              <h3 className="text-xl sm:text-3xl tracking-wider text-center my-6">Where I worked...</h3>
             </div>
             <VerticalTimeline>
               {timeline.map( (el, idx) => <TimelineElement description={el} key={idx}/>)}
             </VerticalTimeline>
           </div>
-          <span className="anchor-tag disable-select text-3xl text-violet-500 tracking-wider mt-6">&lt;/timeline&gt;</span>
+          <span className="anchor-tag disable-select text-xl sm:text-3xl text-violet-500 tracking-wider mt-6">&lt;/timeline&gt;</span>
         </div>
         </>
     )

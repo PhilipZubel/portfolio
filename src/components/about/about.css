@@ -82,3 +82,8 @@
     }
 }
 
+@media (max-width: 500px) {
+    #about .content .picture {
+        min-width: 80%;
+    }
+}

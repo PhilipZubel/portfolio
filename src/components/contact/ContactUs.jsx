@@ -54,7 +54,7 @@ export const ContactUs = () => {
         <textarea name="message" />
         <button type="submit" value="Send">Send</button>
     </form> */}
-    <form className="w-[32rem]" ref={form} onSubmit={sendEmail}>
+    <form className="w-[18rem] sm:w-[32rem]" ref={form} onSubmit={sendEmail}>
     <div className="flex flex-wrap mb-4">
         <div className="w-full">
         <label className="block uppercase tracking-wide text-yellow-600 text-xs font-bold mb-2" htmlFor="name">

@@ -27,7 +27,7 @@ const EmailCard = () => {
         <div className='flex flex-col mb-8'>
             <button className='contact-card' onClick={copy}>
                 <AiOutlineMail size="5em" className="mb-2 lg:mb-4" style={{display:"block", marginLeft:"auto", marginRight:"auto"}}/>
-                <div className='text-xl'>{email}</div>
+                <div className='text-lg sm:text-xl'>{email}</div>
             </button>
             
         </div>
