@@ -37,9 +37,9 @@ const App = () => {
           <About />
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={2} 
+          offset={2.1} 
           speed={1.2}
-          factor={1.2}
+          factor={1.1}
           >
           <Timeline />
         </ParallaxLayer>
@@ -57,7 +57,7 @@ const App = () => {
           <Skills />
         </ParallaxLayer>
         <ParallaxLayer 
-          offset={5.5} 
+          offset={5.4} 
           speed={1}
           > 
           <ToastContainer/>

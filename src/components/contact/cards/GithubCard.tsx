@@ -5,7 +5,7 @@ const GithubCard = () => {
     const githubLink ="https://github.com/PhilipZubel";
 
     return (
-        <div className='flex flex-col mb-8'>
+        <div className='flex flex-col mb-4'>
             <a className='contact-card' href={githubLink} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub 
                     size="5em" 

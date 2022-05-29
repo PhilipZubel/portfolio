@@ -18,7 +18,7 @@ const Card = (prop: {project:any}) => {
                         <a href={prop.project.github}
                             target="_blank" 
                             rel="noreferrer" 
-                            className="inline-flex items-center py-2 px-3 mb-4 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                            className="inline-flex items-center py-2 px-3 mb-4 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none">
                         <p className="pr-2">GitHub</p>
                         <AiFillGithub size={20}/>
                         </a>
@@ -29,7 +29,7 @@ const Card = (prop: {project:any}) => {
                             <a href={prop.project.view} 
                                 target="_blank" 
                                 rel="noreferrer" 
-                                className="inline-flex items-center py-2 px-3 mb-4 sm:ml-2 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                                className="inline-flex items-center py-2 px-3 mb-4 sm:ml-2 text-sm font-medium text-center text-white bg-teal-700 rounded-lg hover:bg-teal-800 focus:ring-4 focus:outline-none">
                             <p className="pr-2">View Project</p>
                             <AiOutlineEye size={20}/>
                         </a>
