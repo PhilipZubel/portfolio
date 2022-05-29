@@ -36,10 +36,10 @@ export const ContactUs = () => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
             .then((result) => {
-                console.log(result.text);
+                // console.log(result.text);
                 notifySuccess();
             }, (error) => {
-                console.log(error.text);
+                // console.log(error.text);
                 notifyFail();
             });
     };
