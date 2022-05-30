@@ -4,6 +4,8 @@
 
 This website summarizes my skills set and projects.
 
+View my website [here](https://philipzubel.github.io/portfolio/).  👈 
+
 ## Installation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -22,7 +24,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+
 ## License
 
+This project uses a <b>GPL-3.0 license</b>. Click this [link](https://github.com/PhilipZubel/portfolio/blob/main/LICENSE) to find out more.
 
 
