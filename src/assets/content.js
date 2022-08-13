@@ -12,21 +12,16 @@ import repos from './projects/repos.png'
 import CSPR from './projects/CSPR.jpg'
 
 // skills
-import html from './technologies/html.svg'
-import css from './technologies/css.svg'
-import js from './technologies/js.svg'
 import ts from './technologies/typescript.svg'
 import react from './technologies/react.svg'
 import django from "./technologies/django.svg"
 import python from "./technologies/python.svg"
 import java from "./technologies/java.svg"
-import mui from './technologies/material-ui.svg'
-import tailwind from './technologies/tailwind-css.svg'
 import git from "./technologies/git.svg"
 import linux from './technologies/linux.png'
 import mysql from "./technologies/mysql.svg"
-import flutter from './technologies/flutter.svg'
 import c from './technologies/c.svg'
+import angular from './technologies/angular.svg'
 
 const about = {
     description: "Hi, I'm Philip! 😎 I'm currently working as a software engineer at Glasgow University Software Services. I am also a final year Computing Science student at the University of Glasgow. 💻 I also love to code! ❤️ And I am keen on testing the limits of what can be achieved with a bit of imagination. 💭",
@@ -36,41 +31,45 @@ const about = {
 
 const timeline = [
     {
-        startDate : "June 2022",
-        endDate : "August 2022",
-        company : "Barclays",
-        position : "Developer Analyst",
-        color : "#00aeef",
-        logo: barclays,
-        description : "Coming soon...",
-        bulletPoints : []
-    },
-    {
-        startDate : "September 2021",
-        endDate : "Present",
-        company : "Glasgow University Software Services",
-        position : "Software Engineer",
-        color : "#6366f1",
-        logo: glasgow,
-        description : "Worked on the following projects:",
-        bulletPoints : [ 
-            "Developed a Django/React web application which allows the university to track the mapping of grades earned by students abroad",
-            "Performed a UX Testing Evaluation on a university web application called MyPath. Conducted interviews, focus groups and surveys which were then analysed via inductive coding",
-        ]
-    },
-    {
         startDate : "September 2021",
         endDate : "Present",
         company : "University of Glasgow",
         position : "UG Demonstrator",
         color : "#3b82f6",
         logo: glasgow,
-        description : "A laboratory demonstrator for 1st and 2nd year Computing Science courses:",
+        description : "A laboratory tutor for 1st and 2nd year Computing Science courses:",
         bulletPoints : [
             "Computing Science 1P (CS1P)",
             "Web Application Development (WAD2)",
         ]
     },
+    {
+        startDate : "June 2022",
+        endDate : "August 2022",
+        company : "Barclays",
+        position : "Developer Analyst",
+        color : "#00aeef",
+        logo: barclays,
+        description : "",
+        bulletPoints : [
+            "Created and customized wealth tracking components using Angular",
+            "Built automation acceptance tests using Serenity BDD and Screenplay Pattern for the Angular components. Used WireMock for generating a Mock API and Selenium for browser automation",
+        ]
+    },
+    {
+        startDate : "September 2021",
+        endDate : "August 2022",
+        company : "Glasgow University Software Services",
+        position : "Software Engineer",
+        color : "#6366f1",
+        logo: glasgow,
+        description : "",
+        bulletPoints : [ 
+            "Developed a Django/React web application which allows the university to track the mapping of grades earned by students abroad",
+            "Performed a UX Testing Evaluation on a university web application called MyPath. Conducted interviews, focus groups and surveys which were then analysed via inductive coding",
+        ]
+    },
+    
 ]
 
 
@@ -105,23 +104,7 @@ const projects = [
     ];
 
 
-const skills = [
-    {
-        name: "HTML",
-        picture: html,
-    },
-    {
-        name: "CSS",
-        picture: css,
-    },
-    {
-        name: "JavaScript",
-        picture: js,
-    },
-    {
-        name: "TypeScript",
-        picture: ts,
-    },
+const skills = [  
     {
         name: "React",
         picture: react,
@@ -131,20 +114,20 @@ const skills = [
         picture: django,
     },
     {
+        name: "Angular",
+        picture: angular,
+    },
+    {
+        name: "TypeScript",
+        picture: ts,
+    },
+    {
         name: "Python",
         picture: python,
     },
     {
         name: "Java",
         picture: java,
-    },
-    {
-        name: "Material UI",
-        picture: mui,
-    },
-    {
-        name: "Tailwind CSS",
-        picture: tailwind,
     },
     {
         name: "Git",
@@ -161,10 +144,6 @@ const skills = [
     {
         name: "MySQL",
         picture: mysql,
-    },
-    {
-        name: "Flutter",
-        picture: flutter,
     },
 ]
 

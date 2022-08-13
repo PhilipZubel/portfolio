@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <div className="section" id="skills">
           <span className="disable-select anchor-tag text-xl sm:text-3xl tracking-wider pb-6 text-blue-400">&lt;skills&gt;</span>
-          <div className="grid grid-cols-3 md:grid-cols-5 place-content-evenly">
+          <div className="grid grid-cols-2 md:grid-cols-5 place-content-evenly">
             {skills.map((skill, idx) => {
               return (
                 <div key={idx} className="p-3 sm:p-6">
