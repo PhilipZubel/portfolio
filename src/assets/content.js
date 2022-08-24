@@ -82,10 +82,10 @@ const projects = [
             picture: CSPR,
         },
         {
-            title : "Sorting Visualizer",
-            description: "This React app shows a visualization of various sorting algorithms such as bubble sort, quick sort, merge sort and more.",
-            github: "https://github.com/PhilipZubel/SortingVisualiser",
-            view: "https://philipzubel.github.io/SortingVisualiser/",
+            title : "Algorithms Animator",
+            description: "This React app demonstrates a visualization of various sorting and graphing algorithms.",
+            github: "https://github.com/PhilipZubel/algorithm-animator",
+            view: "https://philipzubel.github.io/algorithm-animator/",
             picture: sorting,
         },
         {
