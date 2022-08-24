@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1a0e1fd6.css",
-    "main.js": "/portfolio/static/js/main.27692da6.js",
+    "main.js": "/portfolio/static/js/main.6f88b2b1.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/me.png": "/portfolio/static/media/me.b98065fa59906ce64d3f.png",
-    "static/media/sorting.png": "/portfolio/static/media/sorting.f888a190094d0637de24.png",
     "static/media/repos.png": "/portfolio/static/media/repos.6336a8389f5fc8228be8.png",
     "static/media/rentalcalculator.png": "/portfolio/static/media/rentalcalculator.07c347a0ce3a94586de6.png",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.e3c9215500d1408545ea.pdf",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.8726e19792baa4ce3fb1.pdf",
     "static/media/CSPR.jpg": "/portfolio/static/media/CSPR.be95d6092f767165df2c.jpg",
     "static/media/glasgow.png": "/portfolio/static/media/glasgow.1a302e0907044ba48298.png",
+    "static/media/sorting.png": "/portfolio/static/media/sorting.4f58cd3147b8541e877c.png",
     "static/media/mysql.svg": "/portfolio/static/media/mysql.de8aab5285d3a9df77cb81dbe9ea418a.svg",
     "static/media/barclays.svg": "/portfolio/static/media/barclays.f473002f0e7b01f3bd56e54acf65ad69.svg",
     "static/media/django.svg": "/portfolio/static/media/django.e5f2afecfa58eefa7fcbda9dedafe86e.svg",
@@ -23,11 +23,11 @@
     "static/media/typescript.svg": "/portfolio/static/media/typescript.ced98752566ac4b3a366e8e41677cd67.svg",
     "static/media/angular.svg": "/portfolio/static/media/angular.24c036287758115b5a879c56baa116f8.svg",
     "main.1a0e1fd6.css.map": "/portfolio/static/css/main.1a0e1fd6.css.map",
-    "main.27692da6.js.map": "/portfolio/static/js/main.27692da6.js.map",
+    "main.6f88b2b1.js.map": "/portfolio/static/js/main.6f88b2b1.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a0e1fd6.css",
-    "static/js/main.27692da6.js"
+    "static/js/main.6f88b2b1.js"
   ]
 }
