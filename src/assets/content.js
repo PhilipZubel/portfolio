@@ -24,7 +24,7 @@ import c from './technologies/c.svg'
 import angular from './technologies/angular.svg'
 
 const about = {
-    description: "Hi, I'm Philip! 😎 I'm currently working as a software engineer at Glasgow University Software Services. I am also a final year Computing Science student at the University of Glasgow. 💻 I also love to code! ❤️ And I am keen on testing the limits of what can be achieved with a bit of imagination. 💭",
+    description: "Hi, I'm Philip! 😎 I'm currently part of the Grill Team at Glasgow University working on a multi-modal conversational AI as part of the Alexa Prize TaskBot Challenge 2! I am also a final year Computing Science student at the University of Glasgow. 💻 I also love to code! ❤️ And I am keen on testing the limits of what can be achieved with a bit of imagination. 💭",
     button : "View my Resume",
     cv: cv,
 }
